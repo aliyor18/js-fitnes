@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Fitnes</title>
+</head>
+<body>
+  <main class="main">
+    <section class="main__hero hero">
+      <div class="hero__container container">
+        <div class="hero__inner">
+          <h1 class="hero__title mt-5">Yugurish</h1>
+
+          <form class="site-form">
+            <div class="my-5 mt-1">
+              <label class="form-label" for="ball" >Havo haroratini kiriting!</label>
+
+              <input class="input-form form-control" type="number" id="ball" aria-describedby="emailHelp" autocomplete="off" required placeholder="temperatura">
+
+              <div id="emailHelp" class="form-text">Iltimos, 10 dan katta va 45 dan past son kiriting.</div>
+
+              <input class="input__rain" type="checkbox" id="flexCheckDefault" value="raining">
+            
+              <label class="label mb-3 text-danger mt-2"  for="flexCheckDefault">Yomg'irli</label>
+              <br>
+    
+              <input class="input__zal" type="checkbox" value="gym" id="flexCheckChecked">
+                
+              <label class="label text-success mt-2" for="flexCheckChecked">Zal</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Jo'natish</button>
+          </form>
+      
+          <div class="hero__info w-50 mt-4 py-3 m-auto rounded">
+            <p class="hero__desc mb-1"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./js/script.js"></script>
+</body>
+</html>
+
